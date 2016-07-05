@@ -13,7 +13,6 @@ Para iniciar o desenvolvimento, baixe a versão mais nova do [Unity Editor](http
 Clone o projeto em seu computador:
 ```sh
 git clone https://github.com/italogfernandes/circuitos/
-npm test
 ```
 Então abra-o pelo Unity Editor, semelhante a imagem abaixo.
 
