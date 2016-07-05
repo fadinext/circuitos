@@ -1,10 +1,6 @@
 # Simulador Didático de Circuitos
 > A proprosta deste software é simular um laboratório de circuitos elétricos.
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-
 Este é um software que simula em 3D o laboratório de circuitos elétricos da FEELT-UFU.
 
 ![](Screenshots/Mesa_Isometrica.png)
