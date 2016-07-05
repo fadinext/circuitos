@@ -7,7 +7,7 @@ public class Protoboard {
 	int largura;
 	int altura;
 
-	public Protoboard(int largura = 20; int altura = 5) {
+	public Protoboard(int largura = 20, int altura = 5) {
 		this.largura = largura;
 		this.altura = altura;
 
@@ -18,8 +18,8 @@ public class Protoboard {
 				furos[x,y] = new Furo(this,x,y);
 			}
 		}
-		Debug.Log ("Protoboard criada com " + (width*height) 
-			+ " tiles.");
+		Debug.Log ("Protoboard criada com " + (largura*altura) 
+			+ " furos.");
 	}
 	public Furo GetFuroAt(int x, int y){
 		if (x > largura || x < 0 ||

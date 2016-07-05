@@ -8,13 +8,13 @@ public class Furo {
         Ground,
         Normal
     }
-    FuroType type = Furo.Normal; //Define o default
+    FuroType type = FuroType.Normal; //Define o default
 
 	Protoboard protoboard;
     int x;
     int y;
 
-    public int hasConectionWith(Furo candidate) {
+    public bool hasConectionWith(Furo candidate) {
         if(this.x == candidate.x) {
             return true;
         }
