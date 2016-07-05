@@ -11,11 +11,11 @@ public class Furo {
     FuroType type = FuroType.Normal; //Define o default
 
 	Protoboard protoboard;
-    int x;
-    int y;
+	public int X { get; protected set; }
+	public int Y { get; protected set; }
 
     public bool hasConectionWith(Furo candidate) {
-        if(this.x == candidate.x) {
+        if(this.X == candidate.X) {
             return true;
         }
         else {
@@ -25,7 +25,7 @@ public class Furo {
 
 	public Furo(Protoboard protoboard, int x, int y) {
 		this.protoboard = protoboard;
-		this.x = x;
-		this.y = y;
+		this.X = x;
+		this.Y = y;
 	}
 }

@@ -4,12 +4,13 @@ using System.Collections;
 public class Protoboard {
     
 	Furo[,] furos;
-	int largura;
-	int altura;
+	public int Largura { get; protected set; }
+
+	public int Altura { get; protected set; }
 
 	public Protoboard(int largura = 20, int altura = 5) {
-		this.largura = largura;
-		this.altura = altura;
+		this.Largura = largura;
+		this.Altura = altura;
 
 		furos = new Furo[largura,altura];
 
@@ -22,8 +23,8 @@ public class Protoboard {
 			+ " furos.");
 	}
 	public Furo GetFuroAt(int x, int y){
-		if (x > largura || x < 0 ||
-		    y > altura || y < 0) {
+		if (x > Largura || x < 0 ||
+		    y > Altura || y < 0) {
 			Debug.LogError ("Furo(" + x + "," + y + ")" +
 			" fora de alcance.");
 			return null;
