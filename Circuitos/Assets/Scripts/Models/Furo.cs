@@ -14,7 +14,7 @@ public class Furo {
 	public int X { get; protected set; }
 	public int Y { get; protected set; }
 
-    public bool hasConectionWith(Furo candidate) {
+	public bool hasConectionWith(Furo candidate) {
         if(this.X == candidate.X) {
             return true;
         }
