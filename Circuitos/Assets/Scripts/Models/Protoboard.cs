@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Protoboard {
-    
+
 	Furo[,] furos;
 	public int Largura { get; protected set; }
 
@@ -19,10 +19,11 @@ public class Protoboard {
 				furos[x,y] = new Furo(this,x,y);
 			}
 		}
-		Debug.Log ("Protoboard criada com " + (largura*altura) 
+		Debug.Log ("Protoboard criada com " + (largura*altura)
 			+ " furos.");
 	}
-	public Furo GetFuroAt(int x, int y){
+	public Furo GetFuroAt(int x, int y)//retorna as coordenadas do furo
+  {
 		if (x > Largura || x < 0 ||
 		    y > Altura || y < 0) {
 			Debug.LogError ("Furo(" + x + "," + y + ")" +
