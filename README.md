@@ -7,6 +7,8 @@ Este é um software que simula em 3D o laboratório de circuitos elétricos da F
 
 ![](Screenshots/mesa_visao_superior.png)
 
+![](Screenshots/Mesa_e_resistor.png)
+
 ## Configurando o Ambiente de Desenvolvimento
 
 Para iniciar o desenvolvimento, baixe a versão mais nova do [Unity Editor](https://unity3d.com/pt/get-unity/download).
