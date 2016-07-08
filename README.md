@@ -9,7 +9,13 @@ Este é um software que simula em 3D o laboratório de circuitos elétricos da F
 
 ![](Screenshots/Mesa_e_resistor.png)
 
-## Configurando o Ambiente de Desenvolvimento
+## Ambiente de Desenvolvimento
+
+Arquivos como cronograma, documentação e projeto escrito estarão disponíveis na pasta do Google Drive do projeto.
+
+[clique para acessar a pasta](https://drive.google.com/folderview?id=0B9-1PWnB4ejCeGpoZU9DbGRybW8&usp=sharing)
+
+
 
 Para iniciar o desenvolvimento, baixe a versão mais nova do [Unity Editor](https://unity3d.com/pt/get-unity/download).
 Clone o projeto em seu computador:
