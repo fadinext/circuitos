@@ -20,7 +20,7 @@ public class ProtoboardController : MonoBehaviour {
 				GameObject furo_go = new GameObject ();
 				furo_go.name = "Furo_" + x + "_" + y;
 				furo_go.transform.position = new Vector3 (
-					furo_data.X-8f, 16.5f, furo_data.Y-3f);
+					furo_data.X-8f, 16.6f, furo_data.Y-3f);
 				furo_go.transform.SetParent (this.transform, true);
 				furo_go.AddComponent<SpriteRenderer>();
 				furo_go.GetComponent<SpriteRenderer>().sprite = furoSprite;
