@@ -1,4 +1,4 @@
-# Simulador Didático de Circuitos
+# Laboratório Virtual de Circuitos
 > A proprosta deste software é simular um laboratório de circuitos elétricos.
 
 Este é um software que simula em 3D o laboratório de circuitos elétricos da FEELT-UFU.
