@@ -26,6 +26,8 @@ Então abra-o pelo Unity Editor, semelhante a imagem abaixo.
 
 Kaio Saramago - kaiosaramago@yahoo.com.br
 
+Trabalho orientado pelo professor [Carlos Eduardo Tavares](http://www.feelt.ufu.br/node/51).
+
 Distribuido sobre a licença MIT. Veja ``LICENSE`` para mais informações.
 
 [https://github.com/italogfernandes/circuitos](https://github.com/italogfernandes/circuitos)
