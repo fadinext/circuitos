@@ -7,10 +7,10 @@ public class mouse : MonoBehaviour {
     public float minX = -360.0f;
     public float maxX = 360.0f;
     private float zoomSpeed = 2.0f;
-    public float sensX = 100.0f;
-    public float sensY = 100.0f;
-    float rotationY = -90.0f;
-    float rotationX = 0.0f;
+    public float sensX = 150.0f;
+    public float sensY = 150.0f;
+    float rotationY = -55.0f;
+    float rotationX = 180.0f;
 
     void Start () {
 	
