@@ -11,7 +11,7 @@ public class Resistor {
 
 	public Resistor(float Resistencia, float Tolerencia, Furo[] Terminais = null){
 		this.resistencia = Resistencia;
-		this.tolerancia = tolerancia;
+		this.tolerancia = Tolerancia;
 		this.terminais = Terminais;
 	}
 }
