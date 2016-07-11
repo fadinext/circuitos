@@ -9,8 +9,8 @@ public class Resistor {
 
 	//TODO: criar propriedades corrente e tensao
 	//Colocar no setter prase alterar 1 alterar o outro
-	public double corrente = null;
-	public double tensao = null;
+	public double corrente = 0;
+	public double tensao = 0;
 
 
 
