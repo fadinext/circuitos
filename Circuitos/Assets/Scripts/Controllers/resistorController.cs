@@ -7,6 +7,7 @@ public class resistorController : MonoBehaviour {
     public float z = 0.0f;
     GameObject res = new GameObject();
     Vector3 pos,inicio;
+    public Furo first, second;
     void OnMouseDown()
     {
         if (pos != new Vector3(-0.5f, 0, -6))

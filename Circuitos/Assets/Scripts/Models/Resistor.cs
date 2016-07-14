@@ -5,7 +5,7 @@ public class Resistor {
 
 	public float resistencia;
 	public float tolerancia;
-	public Furo[] terminais;
+	Furo[] terminais;
 
 	//TODO: criar propriedades corrente e tensao
 	//Colocar no setter prase alterar 1 alterar o outro
