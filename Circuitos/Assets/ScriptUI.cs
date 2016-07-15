@@ -34,4 +34,10 @@ public class ScriptUI : MonoBehaviour {
     {
         Debug.Log("colocar o elemento c");
     }
+
+	void FixedUpdate() {
+		if (Input.GetKeyDown (KeyCode.Escape)) {
+			Application.LoadLevel (0);
+		}
+	}
 }
