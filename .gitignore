@@ -7,12 +7,12 @@ Referencias/*
 # Unity generated #
 # =============== #
 UnityGenerated/
-Circuitos/[Ll]ibrary/
-Circuitos/[Tt]emp/
-Circuitos/[Oo]bj/
-Circuitos/[Bb]uild/
-Circuitos/[Bb]uilds/
-Circuitos/Assets/AssetStoreTools*
+*/[Ll]ibrary/
+*/[Tt]emp/
+*/[Oo]bj/
+*/[Bb]uild/
+*/[Bb]uilds/
+*/Assets/AssetStoreTools*
 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
@@ -27,7 +27,7 @@ Circuitos/Assets/AssetStoreTools*
 *.pidb
 *.booproj
 *.svd
-Circuitos/ExportedObj/
+*/ExportedObj/
 
 # ===================================== #
 # Unity3D generated meta files
@@ -45,7 +45,8 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
-# ============ #
+# ==========
+== #
 # OS generated #
 # ============ #
 .DS_Store
