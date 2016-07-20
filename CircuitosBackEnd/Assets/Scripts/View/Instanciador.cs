@@ -74,7 +74,7 @@ public class Instanciador : MonoBehaviour {
 
 							item.localScale = new Vector3 (
 								0.25f,Vector3.Distance(posicao1,posicao2) / 2, 0.25f);				
-
+							//TODO: Rotacionar Jumper
 //							Debug.Log(Vector3.Angle(posicao1,posicao2));
 //							item.rotation = new Quaternion(0f,0f,
 //								90f,
