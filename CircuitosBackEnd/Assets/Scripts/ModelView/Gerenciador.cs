@@ -1,14 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class Gerenciador {
 
 	public Circuito circuito;
-	// Use this for initialization
-	public Gerenciador () {
-		circuito = new Circuito ("meucircuito");
+	public IList<int> nos_de_conexao;
 
+
+	public Gerenciador () {
+		circuito = new Circuito ("meucircuito");//TODO: pensar num nome melhor
+		nos_de_conexao = new List<int>();
 	}
+
 
 	public ComponenteEletrico AddComponente(ComponenteEletrico.Tipos tipo) {
 		ComponenteEletrico componente;

@@ -8,6 +8,8 @@ public class Movimentador : MonoBehaviour {
 
 	void Update(){
 		
+		//TODO: criar pequeno menu para o componente ao clica-lo com opcoes
+		//Arrastar, valores etc....
 		if (Input.GetMouseButtonDown (1)) { //Botao esquerdo clicado
 			 comp_selecionado = selecionarComponente();
 		}
