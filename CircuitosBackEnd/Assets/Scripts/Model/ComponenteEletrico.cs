@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ComponenteEletrico {
+public class ComponenteEletrico : MonoBehaviour {
 
 	//gerado automaticamente ao inserir
 	public string nome { get; set; }

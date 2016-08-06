@@ -42,6 +42,7 @@ public class LigarVoltimetro : MonoBehaviour {
 					terminal_positivo = item.gameObject;
 				}
 			}
+
 						
 			/*Nó Atual = 0;
 			 * 
@@ -106,6 +107,7 @@ public class LigarVoltimetro : MonoBehaviour {
 			 	Atual = Componentes[0];
 				AdicionarComponente(Atual.name,GetTipo(Atual), no_atual, proximo_no,GetValor(Atual));
 			 	Componentes = GetComponentesConectados(proximo_no);
+				//colocar um contador pra impedir loop infinito
 			 }
 		}
 	}
