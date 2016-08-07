@@ -11,7 +11,7 @@ public class TerminalScript : MonoBehaviour {
 	void OnCollisionEnter (Collision col){
 		Debug.Log ("Eu colidi");
 		if (col.gameObject.name.StartsWith ("Furo")) {
-			Debug.Log(col.transform.parent.name.ToString());
+			Debug.Log (col.transform.parent.name.ToString ());
 		}
 	}
 }
