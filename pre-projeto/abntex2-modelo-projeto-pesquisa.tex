@@ -187,6 +187,7 @@ com as normas ABNT.}
 \pdfbookmark[0]{\contentsname}{toc}
 \tableofcontents*
 \cleardoublepage
+
 % ---
 
 
@@ -203,10 +204,24 @@ com as normas ABNT.}
 
 Com o intuito de melhorar a qualidade de ensino da disciplina de Circuitos Elétricos 1(experimental),o software em desenvolvimento tem como proposta simular o laboratório, em ambiente multidimensional (3D), de circuitos elétricos da Faculdade de Engenharia Elétrica.
 
-Sinta-se convidado para conhecer e acompanhar o projeto em nosso Github: \url{https://github.com/italogfernandes/circuitos}. 
+Sinta-se convidado para conhecer e acompanhar o projeto em nosso Github: \-url{https://github.com/italogfernandes/circuitos}.
+
+Para as câmeras da sala inicialmente a proposta era trabalhar com apenas uma câmera, tal proposta foi desconsiderada após o surgimento de complicações na montagem dos circuitos em ambiente 3D.Portanto, para a montagem de circuitos e regulação de valores em geral, como no osciloscópio ou gerador de funções, fora decidido a substituição de uma única câmera 3D por várias câmeras 2D. Assim para a regulagem dos equipamentos do laboratório a nova proposta é usar logo a frente do equipamento como segue no exemplo.Apesar das câmeras em 2D adicionadas a câmera 3D continuará a existir como visão do aluno.
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width = 10cm]{3.png}
+	\caption{Em ambiente de simulação,visão de um componente usando câmera 2D para ajuste do mesmo.}
+	%\label{}
+\end{figure}
 
 
+
+<<<<<<< HEAD
+\chapter{Elementos}
+=======
 \chapter{Spice-esboço}
+>>>>>>> 1bbcb68d1eff5ee6ee44164792f47acf8c398dfa
 
 Para o desenvolvimento dos cálculos relacionados com as diferentes montagens de circuito elétrico,usamos o programa chamado SPICE (Simulation Program with Integrated Circuit Emphasis.), que analisa o circuito baseado em uma descrição na forma de arquivo texto dos componentes e conexões.Devido a sua gratuidade, atualmente vários programas, que inclusive são pagos,usam do Spice para o cálculo de seus circuitos.
 
