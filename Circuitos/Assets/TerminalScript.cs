@@ -145,6 +145,6 @@ public class TerminalScript : MonoBehaviour {
 //				transform.parent.BroadcastMessage ("UpdateNos", terminalisPositivo? no_id:-no_id);
 //			}
 //	
-//		}
-//	}
+		}
+	}
 }
